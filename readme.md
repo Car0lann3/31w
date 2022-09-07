@@ -2,7 +2,7 @@
 ## Thème et plugin  Wordpress
 ### Contient 12 commits
 
-[github-page](https://Car0lann3.github.io/wp-cdc)
+[github-page](https://car0lann3.github.io/31w/)
 > Le thème utilise une structure de grid pour formater le layout
 
 
