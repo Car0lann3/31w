@@ -1,13 +1,13 @@
-# Thème collège de maisonneuve
-### Développement d'un site constitué de plusieurs modèles,  gabarits de modèle et modèle de page «template» utilisant les champs personnalisés et plusieurs animations/transitions Javascript/CSS 
+# TP1
+## Thème et plugin  Wordpress
+### Contient 12 commits
 
-Accéder au Site web: 
-[SiteGround](https://eddym73.sg-host.com/)
+[github-page](https://Car0lann3.github.io/wp-cdc)
+> Le thème utilise une structure de grid pour formater le layout
 
-Accéder à la github page:
-[Github page](https://github.com/Car0lann3/wp-cdc)
 
 Pour plus d'information sur la conception de thème
-[wp developper guide](https://developer.wordpress.org/)
+[WP developper guide](https://developper.wordpress.org/theme)
 
-![alt text](./public/cmaisonneuve.jpeg)
+Pour plus d'information sur la structure grid
+[css-tricks/grid](https://css-tricks.com/snippets/css/complete-guide-grid/)

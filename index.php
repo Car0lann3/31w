@@ -1,17 +1,19 @@
-<?php
-/**
- * Front to the WordPress application. This file doesn't do anything, but loads
- * wp-blog-header.php which does and tells WordPress to load the theme.
- *
- * @package WordPress
- */
+<?php get_header(); ?> 
+<div class="grid grid---3">
+    <h1>Maisonneuve</h1>
+    <article class="tile">
+        <?php
+        if (have_posts()):
+            while(have_posts()) : the_post(); ?>
+            <div>
+                <h2><?php the_title(); ?></h2>
+                <p><?php the_field('resume')?></p>
+                <p><?php wp_trim_words(get_the_content(), 10) ?></p>
+            </div>
 
-/**
- * Tells WordPress to load the WordPress theme and output it.
- *
- * @var bool
- */
-define( 'WP_USE_THEMES', true );
+            <?php endwhile; ?>
+        <?php endif; ?>    
+    </article>
 
-/** Loads the WordPress Environment and Template */
-require __DIR__ . '/wp-blog-header.php';
+</div>
+<?php get_footer(); ?>
